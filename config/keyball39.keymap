@@ -65,10 +65,10 @@
         gallium-default {
             label = "gallium";
             bindings = <
-&kp Q      &kp X         &kp M       &kp W             &kp Z                                   &kp J            &kp F              &kp O      &kp U    &kp SEMI
-&kp N      &kp R         &kp T       &mt LEFT_SHIFT S  &kp G                                   &kp Y            &mt RIGHT_SHIFT H  &kp A      &kp E    &kp I
-&kp B      &kp L         &kp D       &kp C             &kp V                                   &kp K            &kp P              &kp COMMA  &kp DOT  &kp SLASH
-&kp LSHFT  &kp LEFT_WIN  &kp ESCAPE  &kp LCTRL         &kp LEFT_ALT  &lt 3 SPACE  &lt 4 ENTER  &lt 4 BACKSPACE                                         &kp RSHFT
+&kp Q          &kp X         &kp M       &kp W                &kp Z                             &kp J            &kp F              &kp O      &kp U    &kp SEMI
+&kp N          &kp R         &kp T       &mt LEFT_SHIFT S     &kp G                             &kp Y            &mt RIGHT_SHIFT H  &kp A      &kp E    &kp I
+&kp B          &kp L         &kp D       &kp C                &kp V                             &kp K            &kp P              &kp COMMA  &kp DOT  &kp SLASH
+&mt LCTRL TAB  &kp LEFT_WIN  &kp ESCAPE  &mt LEFT_ALT ESCAPE  &trans  &lt 3 SPACE  &lt 4 ENTER  &lt 4 BACKSPACE                                         &trans
             >;
         };
 
@@ -93,10 +93,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
-&trans          &trans        &trans        &trans        &kp PAGE_UP                    &trans        &trans        &kp APOS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &trans        &trans        &trans        &kp PAGE_DOWN                  &trans        &trans        &kp MINUS     &kp EQUAL         &kp BSLH
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans         &trans  &trans  &kp DEL                                                     &kp RIGHT_SHIFT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
+&trans        &trans        &trans        &trans        &kp PAGE_UP                    &trans        &trans        &kp APOS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans        &trans        &trans        &trans        &kp PAGE_DOWN                  &trans        &trans        &kp MINUS     &kp EQUAL         &kp BSLH
+&trans        &trans        &trans        &trans        &trans         &trans  &trans  &kp DEL                                                     &trans
             >;
         };
 
