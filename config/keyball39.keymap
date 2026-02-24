@@ -68,7 +68,7 @@
 &kp Q      &kp X         &kp M       &kp W        &kp Z                                     &kp J            &kp F  &kp O      &kp U    &kp SEMI
 &kp N      &kp R         &kp T       &kp S        &kp G                                     &kp Y            &kp H  &kp A      &kp E    &kp I
 &kp B      &kp L         &kp D       &kp C        &kp V                                     &kp K            &kp P  &kp COMMA  &kp DOT  &kp SLASH
-&kp LSHFT  &kp LEFT_WIN  &kp ESCAPE  &lt 7 LCTRL  &lt 5 LEFT_ALT  &lt 6 SPACE  &lt 5 ENTER  &lt 3 BACKSPACE                             &kp RSHFT
+&kp LSHFT  &kp LEFT_WIN  &kp ESCAPE  &lt 8 LCTRL  &lt 6 LEFT_ALT  &lt 3 SPACE  &lt 6 ENTER  &lt 4 BACKSPACE                             &kp RSHFT
             >;
         };
 
@@ -81,13 +81,22 @@
             >;
         };
 
+        stenography {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
         number_layer {
             label = "NUM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                         &none         &none         &none         &none         &none
-&none         &none         &none         &none         &none                         &none         &none         &trans        &trans        &none
-&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
+&trans          &trans        &trans        &trans        &trans                        &kp SINGLE_QUOTE  &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &trans        &trans        &trans        &trans                        &trans            &trans        &trans        &trans            &kp BACKSLASH
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                          &kp RIGHT_SHIFT
             >;
         };
 
@@ -117,7 +126,7 @@
 &kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7     &kp N8  &kp N9     &kp N0
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK
 &none           &none           &none         &none      &none                   &kp PAGE_DOWN  &none      &none   &none      &none
-&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 4                                        &none
+&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 5                                        &none
             >;
         };
 
@@ -131,8 +140,8 @@
             >;
         };
 
-        snipe_layer {
-            label = "SNIPE";
+        snipe {
+            label = "snipe";
             bindings = <
 &trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
