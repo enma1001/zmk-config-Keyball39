@@ -106,9 +106,9 @@
         Mouse_Layer {
             label = "MOUSE";
             bindings = <
-&kp ESCAPE  &kp Q     &kp UP    &kp E         &kp R                       &trans       &trans     &trans     &trans  &trans
-&kp TAB     &kp LEFT  &kp DOWN  &kp RIGHT     &kp F                       &bt BT_CLR   &trans     &mkp MCLK  &trans  &trans
-&kp LSHIFT  &kp C     &kp L     &kp B         &kp M                       &trans       &mkp LCLK  &mkp RCLK  &mo 5   &trans
+&kp ESCAPE  &kp Q     &kp UP    &kp E         &kp R                       &trans       &trans  &trans     &trans     &trans
+&kp TAB     &kp LEFT  &kp DOWN  &kp RIGHT     &kp F                       &trans       &trans  &trans     &mkp MCLK  &trans
+&kp LSHIFT  &kp C     &kp L     &kp B         &kp M                       &trans       &trans  &mkp LCLK  &mkp RCLK  &mo 5
 &kp LCTRL   &trans    &trans    &kp LEFT_ALT  &lt 2 SPACE  &trans  &mo 5  &lt 3 ENTER                                &to 0
             >;
         };
