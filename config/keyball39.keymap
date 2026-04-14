@@ -65,10 +65,10 @@
         Gallium_Layer {
             label = "GALLIUM";
             bindings = <
-&kp Q             &kp X         &kp M       &kp W         &kp Z                    &kp J      &kp F  &kp O      &kp U    &kp BACKSPACE
-&mt LEFT_SHIFT N  &kp R         &kp T       &kp S         &kp G                    &kp Y      &kp H  &kp A      &kp E    &mt RIGHT_SHIFT I
-&kp B             &kp L         &kp D       &kp C         &kp V                    &kp K      &kp P  &kp COMMA  &kp DOT  &kp FSLH
-&mt LCTRL TAB     &kp LEFT_WIN  &kp ESCAPE  &kp LEFT_ALT  &kp SPACE  &mo 2  &mo 3  &kp ENTER                             &to 4
+&kp Q             &kp X         &kp M       &kp W         &kp Z                        &kp J  &kp F  &kp O      &kp U    &kp BACKSPACE
+&mt LEFT_SHIFT N  &kp R         &kp T       &kp S         &kp G                        &kp Y  &kp H  &kp A      &kp E    &mt RIGHT_SHIFT I
+&kp B             &kp L         &kp D       &kp C         &kp V                        &kp K  &kp P  &kp COMMA  &kp DOT  &kp FSLH
+&mt LCTRL TAB     &kp LEFT_WIN  &kp ESCAPE  &kp LEFT_ALT  &mo 2  &kp SPACE  &kp ENTER  &mo 3                             &to 4
             >;
         };
 
@@ -96,7 +96,7 @@
         Function_Layer {
             label = "FN";
             bindings = <
-&trans        &trans          &trans        &trans        &bootloader                   &kp K_MUTE    &kp F1  &kp F2   &kp F3   &kp F4
+&trans        &trans          &trans        &trans        &trans                        &kp K_MUTE    &kp F1  &kp F2   &kp F3   &kp F4
 &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &kp C_VOL_UP  &kp F5  &kp F6   &kp F7   &kp F8
 &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans                        &kp C_VOL_DN  &kp F9  &kp F10  &kp F11  &kp F12
 &trans        &trans          &trans        &trans        &trans        &trans  &trans  &kp DELETE                              &trans
