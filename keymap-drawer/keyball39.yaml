@@ -35,7 +35,7 @@ layers:
   - LEFT WIN
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
-  - SNIPE
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: FN}
   - MOUSE
@@ -195,10 +195,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - NUM
-  - SCROLL
-  - {t: '$$mdi:keyboard-return$$', type: held}
+  - SNIPE
+  - {t: '$$mdi:keyboard-space$$', h: NUM}
+  - {t: '$$mdi:keyboard-return$$', h: FN}
+  - {type: held}
   - {t: GALLIUM, h: toggle}
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -237,7 +237,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   SNIPE:
@@ -278,5 +278,5 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
