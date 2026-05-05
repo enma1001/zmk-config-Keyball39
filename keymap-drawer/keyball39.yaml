@@ -31,9 +31,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - LEFT WIN
   - $$mdi:keyboard-esc$$
+  - LEFT WIN
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-option$$
   - MOUSE
   - {t: '$$mdi:keyboard-space$$', h: NUM}
