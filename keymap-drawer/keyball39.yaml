@@ -52,7 +52,7 @@ layers:
   - '9'
   - '0'
   - Ctl+A
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+S
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+F
   - PG UP
@@ -165,12 +165,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
