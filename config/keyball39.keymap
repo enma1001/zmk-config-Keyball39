@@ -97,7 +97,7 @@
             label = "NUM";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LC(A)     &kp LC(S)     &trans        &kp LC(F)     &kp PG_UP                      &kp HOME      &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT
+&kp LC(A)     &trans        &trans        &kp LC(F)     &kp PG_UP                      &kp HOME      &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT
 &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp PAGE_DOWN                  &kp END       &kp GRAVE     &kp APOS      &kp SEMI      &kp BSLH
 &trans        &trans        &trans        &trans        &trans         &trans  &trans  &trans                                                  &to 3
             >;
@@ -127,10 +127,10 @@
         Mouse_Layer {
             label = "MOUSE";
             bindings = <
-&kp ESCAPE    &trans    &kp UP    &trans     &trans                                 &trans          &trans     &mkp MCLK  &trans  &kp DELETE
-&kp CAPSLOCK  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                                 &msc SCRL_UP    &mkp LCLK  &mkp RCLK  &mo 5   &mo 6
-&trans        &trans    &trans    &trans     &kp PRINTSCREEN                        &msc SCRL_DOWN  &trans     &trans     &trans  &trans
-&trans        &trans    &trans    &trans     &trans           &kp SPACE  &kp ENTER  &trans                                        &to 0
+&kp ESCAPE      &trans          &trans          &trans           &trans                                 &trans          &trans     &mkp MCLK  &trans  &kp DELETE
+&kp CAPSLOCK    &trans          &kp UP_ARROW    &trans           &trans                                 &msc SCRL_UP    &mkp LCLK  &mkp RCLK  &mo 5   &mo 6
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN                        &msc SCRL_DOWN  &trans     &trans     &trans  &kp RIGHT_SHIFT
+&trans          &trans          &trans          &trans           &trans           &kp SPACE  &kp ENTER  &trans                                        &to 0
             >;
         };
 
