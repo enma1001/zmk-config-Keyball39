@@ -115,7 +115,7 @@
 
         Navigation_Layer {
             bindings = <
-&kp ESC    &trans          &kp UP_ARROW    &trans           &trans                         &trans    &trans  &trans  &trans  &trans
+&kp ESC    &kp DELETE      &kp UP_ARROW    &trans           &trans                         &trans    &trans  &trans  &trans  &trans
 &kp TAB    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP                    &kp HOME  &trans  &trans  &trans  &trans
 &kp LSHFT  &trans          &trans          &kp PRINTSCREEN  &kp PAGE_DOWN                  &kp END   &trans  &trans  &trans  &kp RSHFT
 &trans     &trans          &trans          &trans           &trans         &trans  &trans  &trans                            &trans
@@ -127,7 +127,7 @@
         Mouse_Layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &mkp MCLK  &trans  &kp DELETE
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &mkp MCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp RCLK  &mo 5   &mo 6
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0                                 &trans
