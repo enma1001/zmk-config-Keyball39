@@ -86,10 +86,10 @@
         Gallium_Layer {
             label = "GALLIUM";
             bindings = <
-&kp Q             &kp X         &kp M  &kp W         &kp Z                            &kp J          &kp F  &kp O      &kp U    &kp BACKSPACE
-&kp N             &kp R         &kp T  &kp S         &kp G                            &kp Y          &kp H  &kp A      &kp E    &kp I
-&mt LEFT_SHIFT B  &kp L         &kp D  &kp C         &kp V                            &kp K          &kp P  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &to 4  &kp LEFT_ALT  &mo 3  &lt 1 SPACE  &lt 2 ENTER  &kp RIGHT_ALT                             &kp RCTRL
+&kp Q             &kp X         &kp M  &kp W         &kp Z                            &kp J  &kp F  &kp O      &kp U    &kp BACKSPACE
+&kp N             &kp R         &kp T  &kp S         &kp G                            &kp Y  &kp H  &kp A      &kp E    &kp I
+&mt LEFT_SHIFT B  &kp L         &kp D  &kp C         &kp V                            &kp K  &kp P  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &to 4  &kp LEFT_ALT  &mo 3  &lt 1 SPACE  &lt 2 ENTER  &mo 4                             &kp RIGHT_ALT
             >;
         };
 
